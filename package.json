@@ -1,6 +1,6 @@
 {
-  "name": "botkit-cms",
-  "version": "0.0.3",
+  "name": "@optania/botkit-cms",
+  "version": "0.0.5",
   "description": "an open tool for designing, building and managing interactive dialog systems",
   "license": "MIT",
   "keywords": [
@@ -11,15 +11,15 @@
     "chatbots",
     "bot"
   ],
-  "homepage": "https://github.com/howdyai/botkit-cms",
+  "homepage": "https://github.com/ellipsesynergie/botkit-cms",
   "main": "src/api.js",
-  "author": "benbrown@gmail.com",
+  "author": "guyaume.tremblay@optania.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/howdyai/botkit-cms.git"
+    "url": "https://github.com/ellipsesynergie/botkit-cms.git"
   },
   "bugs": {
-    "url": "https://github.com/howdyai/botkit-cms/issues"
+    "url": "https://github.com/ellipsesynergie/botkit-cms/issues"
   },
   "scripts": {
     "start": "node index.js",
@@ -35,7 +35,7 @@
     "dotenv": "^6.0.0",
     "express": "^4.15.3",
     "express-basic-auth": "^1.1.5",
-    "express-hbs": "^1.0.4",
+    "express-hbs": "^2.5.0",
     "querystring": "^0.2.0",
     "uuid": "^3.3.2"
   },
@@ -43,7 +43,8 @@
     "eslint": "^5.7.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-util": "^3.0.7"
+    "gulp-sass": "^5.1.0",
+    "gulp-util": "^3.0.7",
+    "sass": "^1.75.0"
   }
 }
